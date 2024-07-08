@@ -1,0 +1,138 @@
+.parent {
+    position: relative;
+    background-color: rgb(35, 59, 194);
+    background-image: url("../../assets/image.png");
+    background-size: auto;
+  background-repeat: no-repeat;
+  z-index: 8;
+  }
+
+.title {
+  color: whitesmoke;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.search_container {
+  padding: 1rem 0rem 4rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: gray;
+  padding: 0.8rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 100%;
+}
+.sp{
+  color:white;
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+  border: none;
+  outline: none;
+}
+.input::placeholder {
+  color: gray;
+  font-weight: 500;
+  overflow: visible;
+}
+
+.search_button {
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.search_button:hover,
+.search_button:focus,
+.search_button:active {
+  background-color: hsl(0, 0%, 17%);
+  cursor: pointer;
+}
+
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 70%;
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  column-gap: 2rem;
+  margin: 8rem auto;
+}
+
+.info {
+  text-align: center;
+}
+
+.info:nth-of-type(n + 2) {
+  border-left: 1px solid gray;
+  padding: 0 1rem;
+}
+
+.info h2 {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.info strong {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .info_wrapper {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .search_container {
+    width: 80%;
+  }
+
+  .input::placeholder {
+    font-size: 0.899rem;
+  }
+
+  .info:nth-of-type(n + 2) {
+    border-left: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .input::placeholder {
+    font-size: 0.599rem;
+  }
+
+  .info_wrapper {
+    gap: 0.6rem;
+  }
+}
+
+
+  
