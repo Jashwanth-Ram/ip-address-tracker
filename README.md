@@ -6,6 +6,13 @@ The IP Address Tracker is a web application that allows users to input an IP add
 ### Demo
 Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 
+### Example 
+Check out some few IP Address from here :
+1. 104.244.42.129 - Twitter, Inc.
+<br>
+2. 8.8.8.8 - Google LLC
+<br>
+3. 52.216.21.57 - Amazon.com, Inc.
 ### Features
 1.See their own IP Address on the map on the initial page load.<br>
 <br>
