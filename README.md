@@ -7,7 +7,8 @@ The IP Address Tracker is a web application that allows users to input an IP add
 Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 
 ### Features
-1.See their own IP Address on the map on the initial page load \n
+1.See their own IP Address on the map on the initial page load <br>
+
 2.Input IP address to retrieve details
 3.Fetch location, timezone, and ISP information using IP Geolocation API by IPify
 4.Display the IP address location on an interactive map using Leaflet.js
