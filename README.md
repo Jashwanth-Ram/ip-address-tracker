@@ -18,8 +18,10 @@ Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 5.View the optimal layout for each page depending on their device's screen size.
 
 ### Technologies Used
-IP Geolocation API by IPify: For fetching IP address details.<br>
-Leaflet.js: For generating and displaying the map.<br>
-React (TypeScript variant): For building the user interface
+1. IP Geolocation API by IPify: For fetching IP address details.<br>
+<br>
+2. Leaflet.js: For generating and displaying the map.<br>
+<br>
+3. React (TypeScript variant): For building the user interface
 
 
