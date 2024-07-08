@@ -13,7 +13,6 @@ Check out some few IP Address from here :
 3. 52.216.21.57 - Amazon.com, Inc.
 
 ### Features
-<br>
 1.See their own IP Address on the map on the initial page load.<br>
 <br>
 2.Input IP address to retrieve details.<br>
