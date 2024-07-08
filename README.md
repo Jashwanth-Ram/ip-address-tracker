@@ -8,9 +8,13 @@ Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 
 ### Features
 1.See their own IP Address on the map on the initial page load.<br>
+<br>
 2.Input IP address to retrieve details.<br>
+<br>
 3.Fetch location, timezone, and ISP information using IP Geolocation API by IPify.<br>
+<br>
 4.Display the IP address location on an interactive map using Leaflet.js<br>
+<br>
 5.View the optimal layout for each page depending on their device's screen size.
 
 ### Technologies Used
