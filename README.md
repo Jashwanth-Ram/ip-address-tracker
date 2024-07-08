@@ -12,7 +12,6 @@ Check out some few IP Address from here :
 2. 8.8.8.8 - Google LLC <br>
 3. 52.216.21.57 - Amazon.com, Inc.
 
-<br>
 ### Features
 <br>
 1.See their own IP Address on the map on the initial page load.<br>
