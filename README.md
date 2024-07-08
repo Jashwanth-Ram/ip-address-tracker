@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+### IP Address Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
+The IP Address Tracker is a web application that allows users to input an IP address and fetch detailed information about it. The application uses the IP Geolocation API by IPify to retrieve data such as location, timezone, and Internet Service Provider (ISP) of the given IP address. Additionally, the application employs Leaflet.js to generate an interactive map displaying the location of the IP address.
 
-Currently, two official plugins are available:
+### Demo
+Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+1.See their own IP Address on the map on the initial page load
+2.Input IP address to retrieve details
+3.Fetch location, timezone, and ISP information using IP Geolocation API by IPify
+4.Display the IP address location on an interactive map using Leaflet.js
+5.View the optimal layout for each page depending on their device's screen size
 
-## Expanding the ESLint configuration
+### Technologies Used
+IP Geolocation API by IPify: For fetching IP address details
+Leaflet.js: For generating and displaying the map
+React (TypeScript variant): For building the user interface
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
