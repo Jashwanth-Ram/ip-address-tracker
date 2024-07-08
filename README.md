@@ -8,8 +8,7 @@ Check the live preview : https://ip-address-tracker-eta-orpin.vercel.app/
 
 ### Example 
 Check out some few IP Address from here :
-1. 104.244.42.129 - Twitter, Inc.
-<br>
+1. 104.244.42.129 - Twitter, Inc. <br>
 2. 8.8.8.8 - Google LLC
 <br>
 3. 52.216.21.57 - Amazon.com, Inc.
